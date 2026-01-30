@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Playwright
+test-results/
+playwright-report/
+.playwright/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+experiments/
+screenshots/
+videos/
+traces/
+*.json
+!package.json
+
+# Sensitive data
+credentials/
+*.pem
+*.key
